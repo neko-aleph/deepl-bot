@@ -6,7 +6,7 @@ A Telegram bot that translates messages using DeepL API. Also supports translati
 
 Add this bot to your group and it will translate all messages into a language you selected using /lang command (the default one is English). You can also just forward the message you want to translate directly to the bot. Use /list command to get a list of all the available languages. In group chats only admins can use the /lang command.
 
-👉 [Try it on Telegram](https://t.me/neko_whisper_bot)
+👉 [Try it on Telegram](https://t.me/neko_translator_bot)
 
 ![Example](assets/example.png)
 
