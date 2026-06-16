@@ -1,7 +1,5 @@
-from sqlalchemy import MetaData, BigInteger, String
+from sqlalchemy import BigInteger, String
 from sqlalchemy.orm import DeclarativeBase, mapped_column
-
-metadata = MetaData()
 
 
 class Base(DeclarativeBase):
