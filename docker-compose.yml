@@ -1,0 +1,11 @@
+services:
+    bot:
+        build: .
+        volumes:
+          - sqlite_data:/app/data
+        environment:
+          - SQLITE_PATH=/app/data/settings.db
+        restart: unless-stopped
+
+volumes:
+    sqlite_data:

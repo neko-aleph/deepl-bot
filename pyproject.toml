@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "deepl-bot"
+version = "0.1.0"
+description = ""
+authors = ["Pavel"]
+packages = [{include = "deepl_bot", from = "src"}, { include = "db", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiogram = "^3.22.0"
+python-decouple = "^3.8"
+aiosqlite = "^0.21.0"
+sqlalchemy = "^2.0.51"
+greenlet = "^3.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.15.17"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
