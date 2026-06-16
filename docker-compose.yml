@@ -6,6 +6,8 @@ services:
         environment:
           - SQLITE_PATH=/app/data/settings.db
         restart: unless-stopped
+        env_file:
+          - .env
 
 volumes:
     sqlite_data:
